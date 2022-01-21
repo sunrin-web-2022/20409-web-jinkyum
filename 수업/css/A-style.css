@@ -1,0 +1,41 @@
+.main-nav .nav-item {
+    border: 1px dotted #efefef;
+  }
+  
+  .subnav-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subnav-items a {
+    display: flex;
+  }
+  
+  .subnav-items a:hover .intro {
+    display: block;
+  }
+  
+  .subnav-items a div {
+    position: relative;
+  }
+  
+  .intro {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    list-style: none;
+    margin-left: -70px;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    width: 200px;
+    z-index: 10;
+  }
+
+  .container2 {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  @media screen {max-width:;}
